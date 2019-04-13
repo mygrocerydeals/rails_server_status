@@ -40,7 +40,7 @@ As JSON:
 
 ## Requirements
 
-* Ruby 2.0.0-p247
+* Ruby ruby 2.6.2p47
 
 ## Contributing
 

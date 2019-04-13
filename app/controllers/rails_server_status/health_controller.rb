@@ -7,7 +7,7 @@ module RailsServerStatus
       @health_check = RailsServerStatus::HealthCheck.new
 
       respond_to do |format|
-        format.html { render text: @health_check.as_text }
+        format.html { render plain: @health_check.as_text }
         format.json { render json: @health_check.as_json }
       end
     end

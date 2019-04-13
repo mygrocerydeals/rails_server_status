@@ -17,6 +17,7 @@ test/dummy/.sass-cache
 test/tmp
 test/version_tmp
 tmp
+.idea/
 
 # YARD artifacts
 .yardoc
